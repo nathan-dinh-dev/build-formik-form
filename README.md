@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Getting Started with Build a Formik Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was using Formik which is a small library that helps you with the 3 most annoying parts:
+
+1. Getting values in and out of form state
+
+2. Validation and error messages
+
+3. Handling form submission
+
+For more information about this library, visit: https://formik.org/docs/overview
 
 ## Available Scripts
 
