@@ -1,0 +1,72 @@
+form {
+  width: 50rem;
+  max-width: 95%;
+  margin: 1rem auto;
+  background-color: #a892ee;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.new-formik-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-formik-control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.new-formik-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.new-formik-actions {
+  text-align: right;
+}
+
+.new-formik-actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.7rem 1.3rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+}
+
+.new-formik-actions button:hover,
+.new-formik-actions button:active {
+  background-color: #510674;
+  border-color: #510674;
+}
+
+.new-formik-actions button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-formik-actions button.alternative:hover,
+.new-formik-actions button.alternative:active {
+  background-color: #ddb3f8;
+}
+
+#emailError,
+#pswError {
+  font-weight: 500;
+  padding-left: 0.4rem;
+  color: rgb(97, 43, 43);
+  font-style: italic;
+}
